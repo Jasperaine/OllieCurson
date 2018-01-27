@@ -1,6 +1,11 @@
 body, html {
 	height: 100%;
 }
+/* fade in on scroll hide */
+
+.hideme {
+	opacity: 0;
+}
 .landing-page-blocker{
 	height: 100%;
 	background-color: white;
@@ -583,9 +588,10 @@ body, html {
 	.mobile-nav-list-container{
 		display: none;
 		width: 150px;
+		margin-top: 20px;
 	}
 	.mobile-nav:hover  .mobile-nav-list {
-		height: 300px;
+		height: auto;
 		overflow: hidden;
 		-webkit-transition:height 300ms ease;
         -moz-transition:height 300ms ease;
