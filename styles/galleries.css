@@ -1,0 +1,104 @@
+.landing-page-blocker{
+	height: 100%;
+	background-color: white;
+	width: 100%;
+}
+.landing-page-gallery-brighton {
+    background-image: url("/img/gallery-landings/brighton.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    opacity: 0.65;
+}
+.landing-page-gallery-tokyo {
+    background-image: url("/img/gallery-landings/tokyo.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    opacity: 0.65;
+}
+.landing-page-gallery-hongkong {
+    background-image: url("/img/gallery-landings/hongkong.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    opacity: 0.65;
+}
+.landing-page-gallery-myanmar {
+    background-image: url("/img/gallery-landings/myanmar.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    opacity: 0.65;
+}
+.landing-page-gallery-prints {
+    background-image: url("/img/gallery-landings/prints.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    opacity: 0.65;
+}
+.gallery-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.gallery-pictures {
+    width: 100%;
+}
+.gallery-pictures img {
+    max-width: 90%;
+    margin: 0% 5% 5% 5%;
+}
+
+
+@media (min-width: 768px) {
+
+    .gallery-pictures img {
+        width: 42.5%;
+        float: left;
+    }
+    .gallery-pictures img:nth-child(odd) {
+        margin-right: 0%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery-pictures img {
+        width: 30.666666%;
+        margin: 0% 2% 2% 2%;
+    }
+}
